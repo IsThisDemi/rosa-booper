@@ -21,6 +21,14 @@ module.exports = {
       name: '@electron-forge/maker-rpm',
       config: {},
     },
+    {
+      name: '@electron-forge/maker-dmg',
+      config: {
+        // background: './assets/hyena-bg.jpg',
+        // icon: './assets/hyena.icns',
+        format: 'ULFO'
+      }
+    }
   ],
   plugins: [
     {
