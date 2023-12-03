@@ -1,9 +1,10 @@
 {
-  "name": "rosa",
-  "productName": "rosa",
+  "name": "RosaBooper",
+  "productName": "Rosa Booper",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "Boop the hyena!",
   "main": "src/index.js",
+  "icon": "assets/rosapp",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",

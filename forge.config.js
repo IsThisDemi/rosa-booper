@@ -1,7 +1,7 @@
 module.exports = {
   packagerConfig: {
     asar: true,
-    icon: 'assets/rosapp',
+    icon: 'assets/hyena',
   },
   rebuildConfig: {},
   makers: [
