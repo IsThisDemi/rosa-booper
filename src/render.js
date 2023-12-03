@@ -68,11 +68,11 @@ document.getElementById("resetBtn").onclick = function() {
 }
 
 document.getElementById("hyenaImg").onclick = function() {
-    document.getElementById("hyenaImg").src = "hyena_boop.png";
+    document.getElementById("hyenaImg").src = "assets/hyena_boop.png";
     count += 1;
     document.getElementById("countLabel").innerHTML = count;
     sleep(200).then(() => {
-        document.getElementById("hyenaImg").src = "hyena.png";
+        document.getElementById("hyenaImg").src = "assets/hyena.png";
     });
     checkStatus();
 }
